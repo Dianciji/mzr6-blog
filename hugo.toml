@@ -2,7 +2,7 @@ baseURL = "https://mzr6.com/"
 locale = "zh-cn"
 defaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
-title = "mzr6"
+title = "马走日的博客"
 theme = "LoveIt"
 
 enableEmoji = true
@@ -16,7 +16,7 @@ enableRobotsTXT = true
   [[menu.main]]
     weight = 1
     identifier = "posts"
-    name = "文章"
+    name = "所有文章"
     url = "posts/"
   [[menu.main]]
     weight = 2
@@ -28,9 +28,25 @@ enableRobotsTXT = true
     identifier = "categories"
     name = "分类"
     url = "categories/"
+  [[menu.main]]
+    weight = 4
+    identifier = "documentation"
+    name = "文档"
+    url = "categories/文档/"
+  [[menu.main]]
+    weight = 5
+    identifier = "about"
+    name = "关于"
+    url = "about/"
 
 [params]
   defaultTheme = "auto"
+
+[params.home.profile]
+  enable = true
+  avatarURL = "/images/tx01.jpg"
+  title = "马走日的博客"
+  subtitle = ""
 
 [params.page.toc]
   enable = true
