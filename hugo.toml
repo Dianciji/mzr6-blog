@@ -39,7 +39,7 @@ enableRobotsTXT = true
 
 [params.home.profile]
   enable = true
-  avatarURL = "/images/avatar.png"
+  avatarURL = "/images/tx01.jpg"
   title = "马走日的博客"
   subtitle = "记录工程手记与自建服务"
   typeit = true
