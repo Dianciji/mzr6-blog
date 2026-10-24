@@ -1,0 +1,40 @@
+baseURL = "https://mzr6.com/"
+locale = "zh-cn"
+defaultContentLanguage = "zh-cn"
+hasCJKLanguage = true
+title = "mzr6"
+theme = "LoveIt"
+
+enableEmoji = true
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+  path = "page"
+
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    name = "文章"
+    url = "posts/"
+  [[menu.main]]
+    weight = 2
+    identifier = "tags"
+    name = "标签"
+    url = "tags/"
+  [[menu.main]]
+    weight = 3
+    identifier = "categories"
+    name = "分类"
+    url = "categories/"
+
+[params]
+  defaultTheme = "auto"
+
+[params.page.toc]
+  enable = true
+  keepStatic = false
+
+[markup.highlight]
+  noClasses = false
