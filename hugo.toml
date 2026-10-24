@@ -36,6 +36,7 @@ enableRobotsTXT = true
 
 [params]
   defaultTheme = "auto"
+  description = "马走日关于算力网络、AI 工具、技术文档的分享与实践记录。"
 
 [params.home.profile]
   enable = true
@@ -49,6 +50,13 @@ enableRobotsTXT = true
   mobileMode = "auto"
   [params.header.title]
     name = "马走日博客"
+
+[params.footer]
+  author = false
+  since = 2026
+
+[params.author]
+  name = "马走日"
 
 [params.search]
   enable = true
@@ -77,4 +85,3 @@ enableRobotsTXT = true
 
 [markup.highlight]
   noClasses = false
-  
