@@ -40,9 +40,15 @@ enableRobotsTXT = true
 [params.home.profile]
   enable = true
   avatarURL = "/images/tx01.jpg"
-  title = "马走日的博客"
+  title = "马走日"
   subtitle = "记录工程手记与自建服务"
   typeit = true
+
+[params.header]
+  desktopMode = "fixed"
+  mobileMode = "auto"
+  [params.header.title]
+    name = "马走日博客"
 
 [params.search]
   enable = true
@@ -71,3 +77,4 @@ enableRobotsTXT = true
 
 [markup.highlight]
   noClasses = false
+  
