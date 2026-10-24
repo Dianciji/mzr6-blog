@@ -30,11 +30,6 @@ enableRobotsTXT = true
     url = "categories/"
   [[menu.main]]
     weight = 4
-    identifier = "documentation"
-    name = "文档"
-    url = "categories/文档/"
-  [[menu.main]]
-    weight = 5
     identifier = "about"
     name = "关于"
     url = "about/"
@@ -44,9 +39,31 @@ enableRobotsTXT = true
 
 [params.home.profile]
   enable = true
-  avatarURL = "/images/tx01.jpg"
+  avatarURL = "/images/avatar.png"
   title = "马走日的博客"
-  subtitle = ""
+  subtitle = "记录工程手记与自建服务"
+  typeit = true
+
+[params.search]
+  enable = true
+  type = "fuse"
+  contentLength = 4000
+  placeholder = ""
+  maxResultLength = 10
+  snippetLength = 30
+  highlightTag = "em"
+  absoluteURL = false
+  [params.search.fuse]
+    isCaseSensitive = false
+    minMatchCharLength = 2
+    findAllMatches = false
+    location = 0
+    threshold = 0.3
+    distance = 100
+    ignoreLocation = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [params.page.toc]
   enable = true
